@@ -716,6 +716,9 @@
   (junction (at 71.882 101.346) (diameter 0) (color 0 0 0 0)
     (uuid 31efa46d-8dc6-497d-b587-171ef6c07ee4)
   )
+  (junction (at 242.824 33.02) (diameter 0) (color 0 0 0 0)
+    (uuid 631220b8-f1ad-4fa1-885e-9ffc59092940)
+  )
   (junction (at 54.61 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 6a091e83-f93d-4d81-904a-9f852f85d0b9)
   )
@@ -727,9 +730,6 @@
   )
   (junction (at 54.61 52.07) (diameter 0) (color 0 0 0 0)
     (uuid ad0352cc-7d57-43c4-8d15-2dadef92f0f3)
-  )
-  (junction (at 242.824 33.02) (diameter 0) (color 0 0 0 0)
-    (uuid c3e6ad00-3d1e-475a-b18c-7ca825d16583)
   )
   (junction (at 242.824 43.434) (diameter 0) (color 0 0 0 0)
     (uuid cc1a1a60-be44-4c1e-b402-cf4fca52b959)
@@ -861,6 +861,10 @@
     (stroke (width 0) (type default))
     (uuid 8a84a27f-2a75-4ffd-8235-03c224708ec1)
   )
+  (wire (pts (xy 242.824 25.4) (xy 242.824 33.02))
+    (stroke (width 0) (type default))
+    (uuid 8d118561-12f8-47ae-bce7-363ebcaa5352)
+  )
   (wire (pts (xy 60.325 52.07) (xy 54.61 52.07))
     (stroke (width 0) (type default))
     (uuid 901ca21c-714d-47c2-a74a-e5fe272faaf3)
@@ -896,10 +900,6 @@
   (wire (pts (xy 179.07 45.72) (xy 179.07 40.64))
     (stroke (width 0) (type default))
     (uuid ba433a2b-7bd2-4a38-b3b7-98c73cec3445)
-  )
-  (wire (pts (xy 242.824 28.956) (xy 242.824 33.02))
-    (stroke (width 0) (type default))
-    (uuid bde22029-2229-4989-a52e-976adb47c263)
   )
   (wire (pts (xy 84.328 78.486) (xy 84.328 81.28))
     (stroke (width 0) (type default))
@@ -1731,7 +1731,7 @@
     )
   )
 
-  (text "apparently put a 4.7uF capacitor in series, they say 4.7 to 10uF"
+  (text "apparently put a 4.7uF capacitor in series, they say 4.7 to 10uF\nNope, this was a terrible idea"
     (at 221.488 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06466be3-e732-4fe3-a369-a04513d003f5)
@@ -1944,7 +1944,7 @@
     )
     (pin "1" (uuid 73dfd431-8d29-48d3-8c8c-5d55e0aa603b))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0101") (unit 1)
         )
@@ -1969,7 +1969,7 @@
     )
     (pin "1" (uuid 5033752a-263b-4e71-abaa-0fcfccf03d86))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0102") (unit 1)
         )
@@ -2001,7 +2001,7 @@
     (pin "1" (uuid 34ebf5c2-6db8-490a-abcd-bb5d19c38f82))
     (pin "2" (uuid b73a4936-7750-477b-a32e-6dab4331f59c))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "BT1") (unit 1)
         )
@@ -2026,7 +2026,7 @@
     )
     (pin "1" (uuid 370a2f31-35d8-4d00-a390-4b07e5847ac3))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0106") (unit 1)
         )
@@ -2051,7 +2051,7 @@
     )
     (pin "1" (uuid ca593b99-f368-49d2-8bab-083b645aab10))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0107") (unit 1)
         )
@@ -2077,7 +2077,7 @@
     (pin "1" (uuid 64bb6f39-0f0c-471d-baff-73f7e097ccac))
     (pin "2" (uuid 66d86037-36b2-4b29-a2a5-14d403ca01ed))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "C1") (unit 1)
         )
@@ -2102,7 +2102,7 @@
     )
     (pin "1" (uuid 7f869adb-2170-420b-aa11-c76293f65713))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0108") (unit 1)
         )
@@ -2128,7 +2128,7 @@
     (pin "1" (uuid 03fd8b47-c8e5-49a9-be94-5e1eedf16e03))
     (pin "2" (uuid cf9d1ef6-5809-4cf9-838a-d820c54dbd6f))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "C3") (unit 1)
         )
@@ -2154,7 +2154,7 @@
     (pin "1" (uuid de681a0c-aef4-4955-b5e8-3eebc126ff35))
     (pin "2" (uuid 90ffee37-ba74-4764-9e90-b59ed5db34a6))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "R7") (unit 1)
         )
@@ -2179,7 +2179,7 @@
     )
     (pin "1" (uuid f84a0333-2d47-49c1-9ce5-7a441359ef13))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0113") (unit 1)
         )
@@ -2204,7 +2204,7 @@
     )
     (pin "1" (uuid 03788787-fa35-4231-99b9-8869fb81cbe9))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0104") (unit 1)
         )
@@ -2239,7 +2239,7 @@
     (pin "6" (uuid e40fe99f-aab4-46b0-a0ed-0308c7bad4b4))
     (pin "3" (uuid 68041adc-efcb-466a-955e-55d3f1a216ba))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "U2") (unit 1)
         )
@@ -2269,7 +2269,7 @@
     (pin "2" (uuid 3d2f8916-e19d-4e34-b48b-c1e2ba5a6909))
     (pin "3" (uuid 54cdc852-5f23-4beb-96d0-6cdf320a3db4))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "Q1") (unit 1)
         )
@@ -2294,7 +2294,7 @@
     )
     (pin "1" (uuid 42e46a12-d9dc-49b8-aab6-e36bb95b4c24))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR02") (unit 1)
         )
@@ -2320,7 +2320,7 @@
     (pin "1" (uuid c2b659cb-f7d8-481f-baa1-7331a434f1d5))
     (pin "2" (uuid eb759ed2-64c7-4de6-8a1f-ee1766089bf9))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "R2") (unit 1)
         )
@@ -2352,7 +2352,7 @@
     (pin "1" (uuid 1540d21e-88ed-4d53-8bb9-4e98c3593923))
     (pin "2" (uuid 489d5122-0ea1-41df-a6b0-5e0ce9ced8f5))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "D1") (unit 1)
         )
@@ -2387,7 +2387,7 @@
     (pin "2" (uuid 4dfe97c3-8053-4adc-a406-6d5649772c2c))
     (pin "7" (uuid ab623151-db6c-43b3-9cd4-d4db4009d572))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "U3") (unit 1)
         )
@@ -2417,7 +2417,7 @@
     (pin "5" (uuid 57f7ffdb-e0d3-4381-b7bf-960e342ea92f))
     (pin "6" (uuid 3448d8f6-eb17-41a4-b042-7aec66187995))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "J1") (unit 1)
         )
@@ -2442,7 +2442,7 @@
     )
     (pin "1" (uuid df16aa8f-b62c-4a4d-8e00-847555c1fcb7))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0115") (unit 1)
         )
@@ -2467,7 +2467,7 @@
     )
     (pin "1" (uuid 9873f833-b398-49df-8ce4-d34b13bd8104))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0110") (unit 1)
         )
@@ -2493,7 +2493,7 @@
     (pin "1" (uuid 7dd09288-88a1-4a45-a851-0a4ce7e8c37f))
     (pin "2" (uuid 287ee57d-fb64-4b6f-b8fa-e38d6a4d952b))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "R1") (unit 1)
         )
@@ -2525,7 +2525,7 @@
     (pin "1" (uuid b4dff382-b09d-4204-a9ab-9acf3aed57c2))
     (pin "2" (uuid c0a4a9f8-888e-4aaf-9820-bedadb2553bf))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "D3") (unit 1)
         )
@@ -2533,24 +2533,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 242.824 28.956 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 242.824 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9345ffd3-b600-4545-a3fc-af8f825580ee)
-    (property "Reference" "#PWR0114" (at 242.824 32.766 0)
+    (property "Reference" "#PWR0114" (at 242.824 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 243.205 24.5618 0)
+    (property "Value" "+3.3V" (at 243.205 21.0058 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 242.824 28.956 0)
+    (property "Footprint" "" (at 242.824 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 242.824 28.956 0)
+    (property "Datasheet" "" (at 242.824 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 75f20867-9ee5-4079-817c-112b0e9e4600))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0114") (unit 1)
         )
@@ -2582,7 +2582,7 @@
     (pin "1" (uuid 4a77c5d5-5b5b-4175-871e-16a2de89ef79))
     (pin "2" (uuid 1d4e4f7e-b452-46ef-a8f0-39d9b8765603))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "D2") (unit 1)
         )
@@ -2607,7 +2607,7 @@
     )
     (pin "1" (uuid 362c751b-522b-4aaf-9d75-29d71fdb3d36))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR05") (unit 1)
         )
@@ -2633,7 +2633,7 @@
     (pin "1" (uuid 7b3fe319-1b6c-4506-bb0e-6897ded06d20))
     (pin "2" (uuid c3216c71-7884-4b68-a8ed-847eae37b879))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "R6") (unit 1)
         )
@@ -2659,7 +2659,7 @@
     (pin "1" (uuid a17af9f8-7922-4efd-8c3f-1339640596ed))
     (pin "2" (uuid 5888e75a-6dd5-430b-8e9e-b8ad15111666))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "C4") (unit 1)
         )
@@ -2685,7 +2685,7 @@
     (pin "1" (uuid 61fc6d46-ef74-46c4-8071-174f6bd048a7))
     (pin "2" (uuid bac8be03-06d4-44f3-9fdc-546be19e73ba))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "C2") (unit 1)
         )
@@ -2710,7 +2710,7 @@
     )
     (pin "1" (uuid d2cff2b7-6184-4fd2-8b01-781fb69a3d51))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR03") (unit 1)
         )
@@ -2736,7 +2736,7 @@
     (pin "1" (uuid a889a621-cfd7-49ee-93e5-57238933cec1))
     (pin "2" (uuid c1abdba8-d1d1-4a1b-a68e-3a58a533ec4b))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "R3") (unit 1)
         )
@@ -2761,7 +2761,7 @@
     )
     (pin "1" (uuid 86ef135e-52a1-45c1-82f2-2fca1302dd2d))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR0112") (unit 1)
         )
@@ -2790,7 +2790,7 @@
     (pin "2" (uuid b82e62a3-9c8d-420a-96a3-8689ab8d8abb))
     (pin "1" (uuid b83250cd-fb52-47b1-8ec3-4854dcf132ec))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "BUZZER1") (unit 1)
         )
@@ -2815,7 +2815,7 @@
     )
     (pin "1" (uuid 8a5fe679-9453-4744-b084-e31fb51fc7dc))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR01") (unit 1)
         )
@@ -2840,7 +2840,7 @@
     )
     (pin "1" (uuid 9a3a245e-d4c1-44e0-ba8d-16769e189d71))
     (instances
-      (project "NeepNeep-DAC-V1"
+      (project "NeepNeep-DAC-V2"
         (path "/53b8c8d9-463f-4715-b30d-544c8cc3c6e0"
           (reference "#PWR04") (unit 1)
         )
