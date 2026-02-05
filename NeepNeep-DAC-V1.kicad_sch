@@ -1786,8 +1786,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid a8676a80-6069-4d66-9862-10a10cccac5c)
   )
-  (text "This pullup is probably\nnot required but will\ninclude anyway"
-    (at 120.65 32.512 0)
+  (text "10k is apparently\na good value \nfor this" (at 120.65 32.512 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ae6a4821-d4c4-4429-8d7a-6bf7453a5efb)
   )
