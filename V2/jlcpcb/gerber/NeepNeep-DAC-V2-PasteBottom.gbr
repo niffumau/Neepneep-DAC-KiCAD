@@ -1,0 +1,21 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.10*%
+%TF.CreationDate,2026-02-12T12:37:37+08:00*%
+%TF.ProjectId,NeepNeep-DAC-V2,4e656570-4e65-4657-902d-4441432d5632,V2*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.10) date 2026-02-12 12:37:37*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.150000X5.080000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,BT1*%
+X10875000Y0D03*
+X-10875000Y0D03*
+%TD*%
+M02*

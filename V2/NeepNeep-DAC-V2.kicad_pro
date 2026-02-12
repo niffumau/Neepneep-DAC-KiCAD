@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -412,7 +412,7 @@
     ]
   },
   "meta": {
-    "filename": "NeepNeep-DAC-V1.kicad_pro",
+    "filename": "NeepNeep-DAC-V2.kicad_pro",
     "version": 1
   },
   "net_settings": {
